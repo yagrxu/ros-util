@@ -15,8 +15,6 @@ api_data = None
 if args.file:
   with open(args.file, 'r') as parameters_file:
     data = json.load(parameters_file)
-    
-    
 
 if args.api:
   command.append(args.api)
